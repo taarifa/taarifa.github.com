@@ -78,8 +78,8 @@
         </div>
         <div class="span4">
           <h2>Blog</h2>
-           <p>Follow Taarifa's Blog at <a href="http://taarifa.wordpress.com">taarifa.wordpress.com</a>.
-        <p><a class="btn" href="#">View details &raquo;</a></p>
+           <p><?php include("lastRSS.php"); ?></a>
+        <p><a class="btn" href="http://taarifa.wordpress.com">View details &raquo;</a></p>
        </div>
         <div class="span4">
           <h2>Featured Deployment</h2>

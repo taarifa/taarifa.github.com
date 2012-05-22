@@ -45,6 +45,7 @@
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="https://github.com/taarifa/Taarifa_Web">GitHub</a></li>
+              <li><a href="http://taarifa.wordpress.com/">Blog</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

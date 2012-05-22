@@ -91,7 +91,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Taarifa 2012</p>
+        <p>&copy; Taarifa 2012 - <a href="credits.html">Credits</a></p>
       </footer>
 
     </div> <!-- /container -->

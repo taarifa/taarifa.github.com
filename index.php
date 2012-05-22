@@ -83,8 +83,8 @@
        </div>
         <div class="span4">
           <h2>Featured Deployment</h2>
-          <p>Taarifa has been widely deployed. Learn more about our deployments.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <p>Taarifa is currently live in Uganda.</p>
+          <p><a class="btn" href="http://ugtaarifa.org/">View details &raquo;</a></p>
         </div>
       </div>
 

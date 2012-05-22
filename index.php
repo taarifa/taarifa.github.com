@@ -57,17 +57,21 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <h1>Welcome to Taarifa</h1><br/><br/>
-	<div class="row">
-	<div class="span2">
-		<img src="LOGO_TAARIFA.png" height="100%" width="100%"/>
-	</div>
-	<div class="span8">
-        <p>The Taarifa Platform is an open source web application for information collection, visualization and interactive mapping. It allows people to collect and share their own stories using various mediums such as SMS, Web Forms, Email or Twitter, placing these reports into a workflow. Where these reports can be followed up and acted upon, while engaging citizens and communities.</p>
-
-	</div>
-	</div>
-<br/><br/><br/>
-<a href="https://github.com/taarifa/Taarifa_Web" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+		<div class="row">
+			<div class="span2">
+				<img src="LOGO_TAARIFA.png" height="170px" width="170px"/>
+			</div>
+			<div class="span8">
+        		<p>The Taarifa Platform is an open source web application for information collection, visualization and interactive mapping. It allows people to collect and share their own stories using various mediums such as SMS, Web Forms, Email or Twitter, placing these reports into a workflow. Where these reports can be followed up and acted upon, while engaging citizens and communities.</p>
+				<br />
+				<div class="span3">
+				<a href="https://github.com/taarifa/Taarifa_Web" class="offset1 btn btn-primary btn-large">Learn more &raquo;</a>
+				</div>
+				<div class="span4">
+				<a class="btn btn-large" href="https://github.com/taarifa/Taarifa_Web/wiki/User-Documentation">Get started with our Step-by-Step guide &raquo;</a>
+				</div>
+			</div>
+		</div>
       </div>
 
       <!-- Example row of columns -->
@@ -75,13 +79,13 @@
         <div class="span4">
           <h2>Community</h2>
           <p>Get involved with our Taarifa community and our mailing list here:  </p> 
-	<a class="btn" href="#">View details &raquo;</a></p>
+			<a class="btn" href="#">View details &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>Blog</h2>
-           <p><?php include("lastRSS.php"); ?></a>
-        <p><a class="btn" href="http://taarifa.wordpress.com">View details &raquo;</a></p>
-       </div>
+          <p><?php include("lastRSS.php"); ?></a>
+       	  <p><a class="btn" href="http://taarifa.wordpress.com">View details &raquo;</a></p>
+        </div>
         <div class="span4">
           <h2>Featured Deployment</h2>
           <p>Taarifa is currently live in Uganda.</p>

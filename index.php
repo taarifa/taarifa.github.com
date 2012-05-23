@@ -79,11 +79,8 @@
         <div class="span4">
           <h2>Community</h2>
           <p>Get involved with our Taarifa community and our mailing list here:  </p> 
-<<<<<<< HEAD
 	<a class="btn" href="https://groups.google.com/forum/#!forum/taarifa-dev">View details &raquo;</a></p>
-=======
 			<a class="btn" href="#">View details &raquo;</a></p>
->>>>>>> 43576b7744fcc23560786e64eec362f48b49474b
         </div>
         <div class="span4">
           <h2>Blog</h2>

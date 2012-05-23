@@ -59,7 +59,7 @@
         <h1>Welcome to Taarifa</h1><br/><br/>
 		<div class="row">
 			<div class="span2">
-				<img src="LOGO_TAARIFA.png" height="40%" width="40%"/>
+				<img src="LOGO_TAARIFA.png" height="100%" width="100%"/>
 			</div>
 			<div class="span8">
         		<p>The Taarifa Platform is an open source web application for information collection, visualization and interactive mapping. It allows people to collect and share their own stories using various mediums such as SMS, Web Forms, Email or Twitter, placing these reports into a workflow. Where these reports can be followed up and acted upon, while engaging citizens and communities.</p>

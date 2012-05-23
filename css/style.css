@@ -1,0 +1,6 @@
+/* optimizations for smartphones */
+@media (max-width: 480px) {
+	.hero-unit h1 {
+		font-size: 40px;
+	}
+}

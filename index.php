@@ -64,9 +64,9 @@
 			<div class="span8">
         		<p>The Taarifa Platform is an open source web application for information collection, visualization and interactive mapping. It allows people to collect and share their own stories using various mediums such as SMS, Web Forms, Email or Twitter, placing these reports into a workflow. Where these reports can be followed up and acted upon, while engaging citizens and communities.</p>
 				<br />
-				<div class="span3">
+				<!--div class="span3">
 				<a href="https://github.com/taarifa/Taarifa_Web" class="offset1 btn btn-primary btn-large">Learn more &raquo;</a>
-				</div>
+				</div-->
 				<div class="span4">
 				<a class="btn btn-large" href="https://github.com/taarifa/Taarifa_Web/wiki/User-Documentation">Get started with our Step-by-Step guide &raquo;</a>
 				</div>

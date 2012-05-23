@@ -52,8 +52,8 @@
       <div class="hero-unit">
         <h1>Welcome to Taarifa</h1><br/><br/>
 		<div class="row">
-			<div class="span2">
-				<img src="LOGO_TAARIFA.png"/>
+			<div class="span2 tlogo">
+				<img class="tlogo" src="LOGO_TAARIFA.png"/>
 			</div>
 			<div class="span8">
         		<p>The Taarifa Platform is an open source web application for information collection, visualization and interactive mapping. It allows people to collect and share their own stories using various mediums such as SMS, Web Forms, Email or Twitter, placing these reports into a workflow. Where these reports can be followed up and acted upon, while engaging citizens and communities.</p>
@@ -98,6 +98,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <!-- JS isn't used by the site right now
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap-transition.js"></script>
     <script src="js/bootstrap-alert.js"></script>
@@ -111,6 +112,7 @@
     <script src="js/bootstrap-collapse.js"></script>
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
+	-->
 
   </body>
 </html>

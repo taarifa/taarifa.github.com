@@ -46,6 +46,7 @@
               <li class="active"><a href="#">Home</a></li>
               <li><a href="https://github.com/taarifa/Taarifa_Web">GitHub</a></li>
               <li><a href="http://taarifa.wordpress.com/">Blog</a></li>
+              <li><a href="http://help.taarifa.org">Help</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

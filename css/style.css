@@ -1,0 +1,21 @@
+/* optimizations for smartphones */
+@media (max-width: 480px) {
+	.hero-unit h1 {
+		font-size: 40px;
+		text-align:center;
+	}
+	
+	.hero-unit {
+		padding: 10px;
+	}
+	
+	.tlogo {
+		text-align:center;
+	}
+	
+	/* give logo fixed width, otherwise it scales awkwardly */
+	.tlogo img {
+		width: 200px;
+		margin: auto auto 10px auto;
+	}
+}

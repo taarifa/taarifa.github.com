@@ -16,6 +16,5 @@
 	/* give logo fixed width, otherwise it scales awkwardly */
 	.tlogo img {
 		width: 200px;
-		margin: auto auto 10px auto;
 	}
 }

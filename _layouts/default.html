@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Taarifa - Building the infrastructure of nations</title>
+    <title>Taarifa - Building the infrastructure of nations :: {{page.title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Taarifa Platform is an open source web application for information collection, visualization and interactive mapping. It allows people to collect and share their own stories using various mediums such as SMS, Web Forms, Email or Twitter, placing these reports into a workflow. Where these reports can be followed up and acted upon, while engaging citizens and communities.">
     <meta name="author" content="">
@@ -34,10 +34,13 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="#">Taarifa</a>
+          <a class="brand" href="index.html">Taarifa</a>
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="press.html">Press</a></li>
+              {% for node in site.pages %}
+                {% if node.category == "navigation" %}
+                  <li{% if page.url == node.url %} class="active"{% endif %}><a href="{{node.url}}">{{node.title}}</a></li>
+                {% endif %}
+              {% endfor %}
               <li><a href="https://github.com/taarifa/Taarifa_Web">GitHub</a></li>
               <li><a href="http://taarifa.wordpress.com/">Blog</a></li>
               <!--<li><a href="http://help.taarifa.org">Help</a></li>-->

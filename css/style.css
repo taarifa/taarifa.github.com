@@ -1,3 +1,10 @@
+.navbar .brand
+{
+  background: url(../taarifa_small.png) no-repeat left center;
+  margin-left: 0px;
+  padding-left: 45px;
+}
+
 /* optimizations for smartphones */
 @media (max-width: 480px) {
 	.hero-unit h1 {

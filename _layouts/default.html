@@ -61,7 +61,19 @@
       <hr>
 
       <footer>
-        <p>&copy; Taarifa 2013 - <a href="credits.html">Credits</a></p>
+        <p>&copy; Taarifa 2013 -
+          <a href="credits.html">Credits</a> -
+          {% for node in site.pages %}
+            {% if node.category == "navigation" %}
+              <a href="{{node.url}}">{{node.title}}</a> -
+            {% endif %}
+          {% endfor %}
+          <a href="http://taarifa.wordpress.com/">Twitter</a> -
+          <a href="https://plus.google.com/102111315324416190986" rel="publisher">Google+</a> -
+          <a href="http://www.youtube.com/user/TaarifaCommunity">YouTube</a> -
+          <a href="http://taarifa.wordpress.com/">Blog</a> -
+          <a href="https://github.com/taarifa/Taarifa_Web">GitHub</a>
+        </p>
       </footer>
 
     </div> <!-- /container -->

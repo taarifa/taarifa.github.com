@@ -1,0 +1,21 @@
+<section role="region" id="settings-view" class="skin-organic">
+  <header>
+    <a href="#/reports" id="close-btn"><span class="icon icon-close">close</span></a>
+    <menu type="toolbar">
+      <button id="submit-btn" ng-click="save()">Submit</button>
+    </menu>
+    <h1>Submit a report</h1>
+  </header>
+  <article>
+    <form>
+      <p>
+        <input type="text" placeholder="Report title" ng-model="report.title">
+        <button type="reset">Clear</button>
+      </p>
+      <p>
+        <textarea placeholder="Description of your report" ng-model="report.desc"></textarea>
+        <button type="reset">Clear</button>
+      </p>
+    </form>
+  </article>
+</section>

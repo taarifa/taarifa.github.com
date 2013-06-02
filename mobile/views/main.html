@@ -1,0 +1,21 @@
+<section role="region" id="list-view">
+  <header>
+    <menu type="toolbar">
+      <a href="#/reports/new" id="settings-btn"><span class="icon icon-add">settings</span></a>
+    </menu>
+    <h1>Taarifa: Current reports</h1>
+  </header>
+  <article id="appList" data-type="list">
+    <ul>
+      <li ng-repeat="report in reports">
+        <a href="#">
+          <p><strong>{{report.title}}</strong></p>
+          <p>{{report.desc}}</p>
+          <p class="right">
+            {{report.latitude}}, {{report.longitude}} | {{report.created_at | date:'short'}}
+          </p>
+        </a>
+      </li>
+    </ul>
+  </article>
+</section>

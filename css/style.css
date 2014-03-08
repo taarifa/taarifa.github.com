@@ -1,27 +1,13 @@
-.navbar .brand
-{
+body {
+  padding-top: 70px;
+}
+
+.navbar-brand {
   background: url(../taarifa_small.png) no-repeat left center;
   margin-left: 0px;
   padding-left: 45px;
 }
 
-/* optimizations for smartphones */
-@media (max-width: 480px) {
-	.hero-unit h1 {
-		font-size: 40px;
-		text-align:center;
-	}
-	
-	.hero-unit {
-		padding: 10px;
-	}
-	
-	.tlogo {
-		text-align:center;
-	}
-	
-	/* give logo fixed width, otherwise it scales awkwardly */
-	.tlogo img {
-		width: 200px;
-	}
+.jumbotron {
+  padding: 10px;
 }

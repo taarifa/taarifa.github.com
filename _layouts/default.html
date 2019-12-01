@@ -44,7 +44,6 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="http://taarifa.wordpress.com/">Twitter</a></li>
-            <li><a href="https://plus.google.com/102111315324416190986" rel="publisher">Google+</a></li>
             <li><a href="http://www.youtube.com/user/TaarifaChannel">YouTube</a></li>
             <li><a href="http://taarifa.wordpress.com/">Blog</a></li>
             <li><a href="https://github.com/taarifa">GitHub</a></li>
@@ -62,7 +61,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Taarifa 2016 -
+        <p>&copy; Taarifa {{ site.time | date: "%Y" }} -
           <a href="credits.html">Credits</a> -
           {% for node in site.pages %}
             {% if node.category == "navigation" %}
@@ -70,7 +69,6 @@
             {% endif %}
           {% endfor %}
           <a href="http://taarifa.wordpress.com/">Twitter</a> -
-          <a href="https://plus.google.com/102111315324416190986" rel="publisher">Google+</a> -
           <a href="http://www.youtube.com/user/TaarifaChannel">YouTube</a> -
           <a href="http://taarifa.wordpress.com/">Blog</a> -
           <a href="https://github.com/taarifa">GitHub</a>
